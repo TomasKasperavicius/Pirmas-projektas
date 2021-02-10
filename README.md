@@ -7,3 +7,8 @@ Programa spausdina pasisveikinimą pagal vartotojo lytį (Jei moteris pasisveiki
 # Programos releasai:
 * [v0.1](https://github.com/TomasKasperavicius/Pirmas-projektas/tree/v0.1)
 * [v0.2](https://github.com/TomasKasperavicius/Pirmas-projektas/tree/v0.2)
+# Įsidiegimo bei naudojimosi instrukcija:
+* Reikia parsisiųsti v1.0 versijos main.cpp failą
+* Jį atsidaryti pasirinktoje IDE (Visual studio, Visual studio code, CodeBlocks)
+* Subuildinti IDE pagalba suradus build mygtuką arba naudojant komandinę eilutę bei įdiegtus kompiliatorius (Pvz.: Linux ar Windows subsystem linux komandinėje eilutėje su g++ kompiliatoriumi g++ main.cpp -o main ir pasileisti ./main)
+* Pasileidus programai reikia įvesti savo varda bei nurodyti eilučių skaičių tarp rėmelių.
