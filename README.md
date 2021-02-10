@@ -4,3 +4,6 @@
 * Galutinė programos versija (v1.0) spausdina pasisveikinimą, kurio eilučių skaičius tarp rėmelių yra nurodomas vartotojo programos veikimo metu.
 # Programos funkcija:
 Programa spausdina pasisveikinimą pagal vartotojo lytį (Jei moteris pasisveikinimas prasideda "Sveika, ", o jei vyras - "Sveikas, ") bei pagal vartotojo nurodytą eilučių skaičių tarp rėmelio.
+# Programos releasai:
+* [v0.1](https://github.com/TomasKasperavicius/Pirmas-projektas/tree/v0.1)
+* [v0.2](https://github.com/TomasKasperavicius/Pirmas-projektas/tree/v0.2)
