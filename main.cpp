@@ -1,14 +1,24 @@
 #include <iostream>
 #include <string>
+
 using std::cout;
 using std::cin;
 using std::endl;
+
 int main()
 {
-    std::string vardas, pirma_eil, antra_eil, trecia_eil, ketvirta_eil, penkta_eil, pasisveikinimas="Sveikas, ";
+    std::string vardas, pirma_eil, antra_eil, trecia_eil, ketvirta_eil, penkta_eil, pasisveikinimas;
     cout << "Iveskite savo varda:"<< endl;
     cin >> vardas;
-    vardas[vardas.size()-1]='i';
+    if(vardas[vardas.size()-1]=='s')
+    {
+        pasisveikinimas="Sveikas, ";
+        vardas[vardas.size()-1]='i';
+    }
+    else
+    {
+        pasisveikinimas="Sveika, ";
+    }
     trecia_eil="* "+pasisveikinimas+vardas+"! *";
     for(int i=0;i<trecia_eil.size();i++)
     {
